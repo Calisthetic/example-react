@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#900, #c00, #c00, #900);
+    height: 100%;
+    /* background: rgb(118,7,6); */
+}
+html {
+    height: 100%;
+}
+
+
+.Form__box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-between;
+    height: 100%;
+}
+.Box__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.Box__messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+.Box__send {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
